@@ -82,21 +82,21 @@ export default {
 			<div class="flex justify-between items-center px-4 sm:px-0">
 				<!-- Header logos -->
 				<div>
-					<router-link to="/"><img v-if="theme === 'light'" src="@/assets/images/logo-dark.svg" class="w-36"
+					<router-link to="/"><img v-if="theme === 'light'" src="@/assets/images/logo-bwbg.png" class="w-44"
 							alt="Dark Logo" />
-						<img v-else src="@/assets/images/logo-light.svg" class="w-36" alt="Light Logo" />
+						<img v-else src="@/assets/images/logo-wbg.png" class="w-44" alt="Light Logo" />
 					</router-link>
 				</div>
 
 				<!-- Theme switcher small screen -->
 				<theme-switcher :theme="theme" @themeChanged="updateTheme"
-					class="block sm:hidden bg-ternary-light dark:bg-ternary-dark hover:bg-hover-light dark:hover:bg-hover-dark hover:shadow-sm px-2.5 py-2 rounded-lg" />
+					class="ml-auto block sm:hidden bg-ternary-light dark:bg-ternary-dark hover:bg-hover-light dark:hover:bg-hover-dark hover:shadow-sm px-2.5 py-2 rounded-lg" />
 
 				<!-- Small screen hamburger menu -->
 				<div class="sm:hidden">
 					<button @click="isOpen = !isOpen" type="button" class="focus:outline-none" aria-label="Hamburger Menu">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-							class="h-7 w-7 fill-current text-secondary-dark dark:text-ternary-light">
+							class="h-7 w-10 fill-current text-secondary-dark dark:text-ternary-light">
 							<path v-if="isOpen" fill-rule="evenodd"
 								d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
 								clip-rule="evenodd"></path>
