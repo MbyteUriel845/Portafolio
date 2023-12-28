@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 import feather from 'feather-icons';
 import Button from './reusable/Button.vue';
 import FormInput from './reusable/FormInput.vue';
@@ -21,15 +21,15 @@ export default {
 
 <template>
 	<transition name="fade">
-		<div v-show="modal" class="font-general-regular fixed inset-0 z-30">
+		<div v-show="modal" class="font-general-regular fixed inset-0 z-30"> -->
 			<!-- Modal body background as backdrop -->
-			<div
+			<!-- <div
 				v-show="modal"
 				@click="showModal()"
 				class="bg-filter bg-black bg-opacity-50 fixed inset-0 w-full h-full z-20"
-			></div>
+			></div> -->
 			<!-- Modal content -->
-			<main
+			<!-- <main
 				class="flex flex-col items-center justify-center h-full w-full"
 			>
 				<transition name="fade-up-down">
@@ -164,4 +164,4 @@ export default {
 .fade-leave-to {
 	opacity: 0;
 }
-</style>
+</style> -->
