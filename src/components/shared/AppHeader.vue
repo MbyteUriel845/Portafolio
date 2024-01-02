@@ -133,8 +133,8 @@ export default {
 
 <style scoped>
 #nav a.router-link-exact-active {
-	@apply text-indigo-700;
-	@apply dark:text-indigo-400;
+	@apply text-[#2C5BF3];
+	@apply dark:text-[#407bff];
 	@apply font-medium;
 }
 </style>
