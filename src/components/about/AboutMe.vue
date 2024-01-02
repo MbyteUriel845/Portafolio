@@ -6,13 +6,24 @@ export default {
 				{
 					id: 1,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-				},
+          "\n" +
+              "¡Hola! Soy un apasionado desarrollador con mucha dedicación la cual busco reflejar en cada línea de código que escribo. Creo en la poderosa sinergia entre la creatividad y la tecnología, convirtiendo ideas en aplicaciones eficientes que solucionen problemas y mejoren la vida de las personas."
+        },
 				{
 					id: 2,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-				},
+          "Mi enfoque va más allá de programar; se trata de construir productos innovadores y superar desafíos. Fuera del desarrollo, encuentro inspiración en la música, la pintura y el arte en general, equilibrando mi vida profesional y personal para alimentar mi creatividad."
+        },
+        {
+          id: 3,
+          bio:
+          "Explora mis proyectos, descubre el proceso detrás de cada uno y espero que disfrutes explorando tanto como yo disfruto creando."
+        },
+        {
+          id: 4,
+          bio:
+          "¡Gracias por visitar mi sitio! Siempre estoy buscando nuevos desafíos y oportunidades para aprender y crecer. Si desea trabajar conmigo o simplemente saludar, no dude en ponerse en contacto."
+        }
 			],
 		};
 	},
@@ -37,7 +48,7 @@ export default {
 				:key="bio.id"
 				class="font-general-regular mb-4 text-ternary-dark dark:text-ternary-light text-lg"
 			>
-				{{ bio.bio }}
+        {{ bio.bio }}
 			</p>
 		</div>
 	</div>

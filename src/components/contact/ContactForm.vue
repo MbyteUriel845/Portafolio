@@ -13,17 +13,17 @@ export default { components: { Button, FormInput, FormTextarea } };
 			<p
 				class="font-general-medium text-primary-dark dark:text-primary-light text-2xl mb-8"
 			>
-				Contact Form
+				Formulario de contacto
 			</p>
 			<form action="#" class="font-general-regular space-y-7">
-				<FormInput label="Full Name" inputIdentifier="name" />
+				<FormInput label="Nombre completo" inputIdentifier="name" />
 				<FormInput
 					label="Email"
 					inputIdentifier="email"
 					inputType="email"
 				/>
-				<FormInput label="Subject" inputIdentifier="subject" />
-				<FormTextarea label="Message" textareaIdentifier="message" />
+				<FormInput label="Asunto" inputIdentifier="subject" />
+				<FormTextarea label="Mensaje" textareaIdentifier="message" />
 
 				<div>
 					<Button
