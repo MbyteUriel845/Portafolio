@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "singleProjectHeader": {
+                "singleProjectTitle": "NASA Space Apps Challenge",
+                "singleProjectDate": "Jul 26,2021",
+                "singleProjectTag": "UI / Frontend"
+            }
+        },
+        {
+            "id": 2,
+            "singleProjectHeader": {
+                "singleProjectTitle": "CompuActual Management",
+                "singleProjectDate": "Jul 26,2021",
+                "singleProjectTag": "UI / Frontend"
+            }
+        },
+        {
+            "id": 3,
+            "singleProjectHeader": {
+                "singleProjectTitle": "Survey System by Geographic Area",
+                "singleProjectDate": "Jul 26,2021",
+                "singleProjectTag": "UI / Frontend"
+            }
+        }
+    ]
+}

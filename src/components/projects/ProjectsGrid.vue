@@ -132,7 +132,10 @@ export default {
 
 		<!-- Projects grid -->
 		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-20 sm:gap-10">
-			<ProjectSingle v-for="project in filteredProjects" :key="project.id" :project="project" />
+			<router-link v-for="project in filteredProjects" :key="project.id"
+				:to="{ name: 'single-project', params: { id: project.id } }">
+				<ProjectSingle :project="project" />
+			</router-link>
 		</div>
 	</section>
 </template>
