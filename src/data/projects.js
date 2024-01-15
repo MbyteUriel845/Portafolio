@@ -6,19 +6,19 @@ const projects = [
 		id: 1,
 		title: 'NASA Space Apps Challenge',
 		category: 'Web & Mobile Application',
-		img: require('@/assets/images/projects/photos/project1 (1).jpeg'),
+		img: require('@/assets/images/projects/photos/project1.jpeg'),
 	},
 	{
 		id: 2,
 		title: 'CompuActual Management',
 		category: 'Web & Mobile Application',
-		img: require('@/assets/images/projects/photos/project2 (1).jpeg'),
+		img: require('@/assets/images/projects/photos/project2.jpeg'),
 	},
 	{
 		id: 3,
 		title: 'Survey System by Geographic Area',
 		category: 'Mobile Application',
-		img: require('@/assets/images/projects/project3.jpg'),
+		img: require('@/assets/images/projects/photos/project3.jpg'),
 	},
 	// {
 	// 	id: 4,

@@ -12,7 +12,7 @@ export default {
 			:key="projectImage.id"
 		>
 			<img
-				:src="projectImage.img"
+				:src="require('@/assets/images/projects/' + projectImage.img + '.jpeg')"
 				class="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
 				alt="{{ projectImage.title }}"
 			/>
