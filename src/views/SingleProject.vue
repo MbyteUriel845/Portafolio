@@ -2,7 +2,7 @@
 import feather from "feather-icons";
 import ProjectHeader from "../components/projects/ProjectHeader.vue";
 // import ProjectGallery from "../components/projects/ProjectGallery.vue";
-// import ProjectInfo from "../components/projects/ProjectInfo.vue";
+import ProjectInfo from "../components/projects/ProjectInfo.vue";
 // import ProjectRelatedProjects from "../components/projects/ProjectRelatedProjects.vue";
 import projectsData from "../data/projectsData.json";
 
@@ -11,13 +11,13 @@ export default {
 	components: {
 		ProjectHeader,
 		// ProjectGallery,
-		// ProjectInfo,
+		ProjectInfo,
 		// ProjectRelatedProjects,
 	},
 	data: () => {
 		return {
 			projects: projectsData.projects,
-			currentProject: null,
+			project: {},
 		};
 	},
 	mounted() {
@@ -27,12 +27,12 @@ export default {
 		feather.replace();
 	},
 	created() {
-		this.loadCurrentProject();
+		this.loadProject();
 	},
 	methods: {
-		loadCurrentProject() {
-			const projectId = parseInt(this.$route.params.id);
-			this.currentProject = this.projects.find(project => project.id === projectId);
+		loadProject() {
+			const projectId = this.$route.params.id;
+			this.project = projectsData.projects.find(p => p.id == projectId);
 		}
 	},
 
@@ -42,13 +42,13 @@ export default {
 <template>
 	<div class="container mx-auto mt-10 sm:mt-20">
 		<!-- Project header -->
-		<ProjectHeader :singleProjectHeader="currentProject.singleProjectHeader" />
+		<ProjectHeader :singleProjectHeader="project.singleProjectHeader" />
 
 		<!-- Project gallery -->
-		<!-- <ProjectGallery :projectImages="projectImages" /> -->
+		<!-- <ProjectGallery :projectImages="project.projectImages" /> -->
 
 		<!-- Project information -->
-		<!-- <ProjectInfo :projectInfo="projectInfo" /> -->
+		<ProjectInfo :projectInfo="project.projectInfo" />
 
 		<!-- Project related projects -->
 		<!-- <ProjectRelatedProjects :relatedProject="relatedProject" /> -->

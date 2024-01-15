@@ -9,7 +9,7 @@ export default {
 	data: () => {
 		return {
 			projects,
-			projectsHeading: 'Portafolio de proyectos',
+			projectsHeading: 'Proyectos',
 			selectedCategory: '',
 			searchProject: '',
 		};

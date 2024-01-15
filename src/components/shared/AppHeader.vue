@@ -82,9 +82,9 @@ export default {
 			<div class="flex justify-between items-center px-4 sm:px-0">
 				<!-- Header logos -->
 				<div>
-					<router-link to="/"><img v-if="theme === 'light'" src="@/assets/images/logo-bwbg.png" class="w-44"
+					<router-link to="/"><img v-if="theme === 'light'" src="@/assets/images/logo1.png" class="w-36"
 							alt="Dark Logo" />
-						<img v-else src="@/assets/images/logo-wbg.png" class="w-44" alt="Light Logo" />
+						<img v-else src="@/assets/images/logo2.png" class="w-36" alt="Light Logo" />
 					</router-link>
 				</div>
 

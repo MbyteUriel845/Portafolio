@@ -28,7 +28,7 @@ export default {
 				class="font-general-medium flex items-center px-6 py-3 rounded-lg shadow-lg hover:shadow-xl bg-[#407bff] hover:bg-[#2C5BF3] focus:ring-1 focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
 				aria-label="More Projects"
 			>
-				<Button title="Mas proyectos" />
+				<Button title="Ver más proyectos" />
 			</router-link>
 		</div>
 	</div>

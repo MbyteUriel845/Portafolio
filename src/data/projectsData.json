@@ -3,25 +3,126 @@
         {
             "id": 1,
             "singleProjectHeader": {
-                "singleProjectTitle": "NASA Space Apps Challenge",
-                "singleProjectDate": "Jul 26,2021",
-                "singleProjectTag": "UI / Frontend"
+                "singleProjectTitle": "NASA Space Apps Challenge"
+            },
+            "projectInfo": {
+                "objectivesHeading": "Objetivo",
+                "objectivesDetails": "La creación de una plataforma online que simplifique el descubrimiento, unión y participación en proyectos científicos. La accesibilidad será a través de una aplicación web, diseñada con el propósito de optimizar el proceso de colaboración y permitir a los usuarios enfocarse en lo esencial: la generación de conocimiento. La plataforma también tiene como objetivo mejorar la comunicación entre los participantes y con el líder del proyecto, con la finalidad de aumentar la productividad.",
+                "technologies": [
+                    {
+                        "title": "Tecnologías utilizadas",
+                        "techs": [
+                            "Spring Boot",
+                            "Vue.js",
+                            "Flask",
+                            "NumPy",
+                            "Azure Services"
+                        ]
+                    }
+                ],
+                "projectDetailsHeading": "Acerca del proyecto",
+                "projectDetails": [
+                    {
+                        "id": 1,
+                        "details": "Science4All es un proyecto innovador diseñado para hacer que la participación en proyectos de ciencia abierta sea más accesible y eficiente. En lugar de depender de métodos tradicionales y a veces complicados para reclutar colaboradores, como correos electrónicos o diversos canales de comunicación, la plataforma utiliza tecnologías avanzadas para simplificar y mejorar el proceso."
+                    },
+                    {
+                        "id": 2,
+                        "details": "La esencia de Science4All radica en su capacidad para conectar a personas con proyectos científicos que se alinean perfectamente con sus habilidades e intereses. Para lograr esto, empleamos un algoritmo de matching inteligente desarrollado en Python. Este algoritmo analiza las habilidades de los usuarios y las compara con los requisitos de los proyectos, facilitando la identificación de colaboradores potenciales de manera eficaz."
+                    },
+                    {
+                        "id": 3,
+                        "details": "En el lado técnico, el backend de la plataforma está construido con Spring Boot en Java, actuando como el motor que gestiona la lógica del negocio y la comunicación con la base de datos. Esto garantiza un funcionamiento seguro y eficiente de la plataforma. Además, el frontend utiliza Vue.js para proporcionar una interfaz de usuario dinámica y amigable, facilitando la navegación y participación de los usuarios."
+                    },
+                    {
+                        "id": 4,
+                        "details": "Para mantener actualizada la información sobre los proyectos, Science4All utiliza web scraping en Python, una técnica que automatiza la búsqueda de nuevos proyectos científicos en la red. Esto asegura que la base de datos esté siempre actualizada y lista para conectar a los usuarios con proyectos emocionantes."
+                    }
+                ]
             }
         },
         {
             "id": 2,
             "singleProjectHeader": {
-                "singleProjectTitle": "CompuActual Management",
-                "singleProjectDate": "Jul 26,2021",
-                "singleProjectTag": "UI / Frontend"
+                "singleProjectTitle": "CompuActual Management"
+            },
+            "projectInfo": {
+                "objectivesHeading": "Objetivo",
+                "objectivesDetails": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+                "technologies": [
+                    {
+                        "title": "Tecnologías utilizadas",
+                        "techs": [
+                            "HTML",
+                            "CSS",
+                            "JavaScript",
+                            "React",
+                            "Bootstrap",
+                            "Material UI"
+                        ]
+                    }
+                ],
+                "projectDetailsHeading": "Acerca del proyecto",
+                "projectDetails": [
+                    {
+                        "id": 1,
+                        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea."
+                    },
+                    {
+                        "id": 2,
+                        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?"
+                    },
+                    {
+                        "id": 3,
+                        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?"
+                    },
+                    {
+                        "id": 4,
+                        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea."
+                    }
+                ]
             }
         },
         {
             "id": 3,
             "singleProjectHeader": {
-                "singleProjectTitle": "Survey System by Geographic Area",
-                "singleProjectDate": "Jul 26,2021",
-                "singleProjectTag": "UI / Frontend"
+                "singleProjectTitle": "Survey System by Geographic Area"
+            },
+            "projectInfo": {
+                "objectivesHeading": "Objetivo",
+                "objectivesDetails": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+                "technologies": [
+                    {
+                        "title": "Tecnologías utilizadas",
+                        "techs": [
+                            "HTML",
+                            "CSS",
+                            "JavaScript",
+                            "React",
+                            "Bootstrap",
+                            "Material UI"
+                        ]
+                    }
+                ],
+                "projectDetailsHeading": "Acerca del proyecto",
+                "projectDetails": [
+                    {
+                        "id": 1,
+                        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea."
+                    },
+                    {
+                        "id": 2,
+                        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?"
+                    },
+                    {
+                        "id": 3,
+                        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?"
+                    },
+                    {
+                        "id": 4,
+                        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea."
+                    }
+                ]
             }
         }
     ]
