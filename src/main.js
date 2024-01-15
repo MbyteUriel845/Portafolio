@@ -3,13 +3,24 @@ import App from './App.vue';
 import router from './router';
 import './assets/css/app.css';
 import BackToTop from 'vue-backtotop';
+import 'vuetify/styles'
+import { createVuetify } from 'vuetify'
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
 
 const feather = require('feather-icons');
 feather.replace();
 
+const vuetify = createVuetify({
+	components,
+	directives,
+  })
+  
+
 createApp(App)
 	.use(router)
 	.use(BackToTop)
+	.use(vuetify)
 	.mount('#app');
 
 const appTheme = localStorage.getItem('theme');
