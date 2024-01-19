@@ -14,12 +14,12 @@ const projects = [
 		category: 'Web & Mobile Application',
 		img: require('@/assets/images/projects/photos/project2.jpeg'),
 	},
-	{
-		id: 3,
-		title: 'Survey System by Geographic Area',
-		category: 'Mobile Application',
-		img: require('@/assets/images/projects/photos/project3.jpg'),
-	},
+	// {
+	// 	id: 3,
+	// 	title: 'Survey System by Geographic Area',
+	// 	category: 'Mobile Application',
+	// 	img: require('@/assets/images/projects/photos/project3.jpg'),
+	// },
 	// {
 	// 	id: 4,
 	// 	title: 'Cloud Storage Platform',
