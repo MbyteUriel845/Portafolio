@@ -23,7 +23,7 @@ export default {
 	<div class="mx-4 sm:mx-auto md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl shadow-2xl">
 		<v-carousel progress="primary" hide-delimiters>
 			<v-carousel-item v-for="projectImage in projectImages" :key="projectImage.id"
-				:src="require('@/assets/images/projects/' + projectImage.img + '.jpeg')">
+				:src="require('@/assets/images/projects/' + projectImage.img + '.png')">
 			</v-carousel-item>
 		</v-carousel>
 	</div>
