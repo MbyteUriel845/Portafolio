@@ -58,7 +58,7 @@
                 }
             ],
             "projectInfo": {
-                "objectivesHeading": "Objetivo",
+                "objectivesHeading": "Objetivo del proyecto",
                 "objectivesDetails": "La creación de una plataforma online que simplifique el descubrimiento, unión y participación en proyectos científicos. La accesibilidad será a través de una aplicación web, diseñada con el propósito de optimizar el proceso de colaboración y permitir a los usuarios enfocarse en lo esencial: la generación de conocimiento. La plataforma también tiene como objetivo mejorar la comunicación entre los participantes y con el líder del proyecto, con la finalidad de aumentar la productividad.",
                 "technologies": [
                     {
